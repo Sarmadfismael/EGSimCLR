@@ -1,0 +1,48 @@
+# --- Model checkpoints and large binaries (host on Zenodo / GitHub Releases) ---
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.h5
+*.tar
+*.zip
+
+# --- Datasets ---
+data/
+dataset/
+datasets/AID/
+datasets/EuroSAT/
+datasets/UC_Merced/
+datasets/MSD/
+*.tif
+*.tiff
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Logs and run outputs ---
+runs/
+logs/
+*.log
+checkpoints/
+wandb/
+
+# --- Manuscript / review material (not for public release) ---
+*.docx
+*.tex
+*.bib
+*.aux
+*.bbl
+*.blg
+*.synctex.gz
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini

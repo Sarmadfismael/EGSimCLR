@@ -1,0 +1,52 @@
+[
+  {
+    "best_epoch": 18,
+    "epochs_trained": 39,
+    "best_val_accuracy": 0.9777777777777777,
+    "test_accuracy": 0.9333333333333333,
+    "test_precision": 0.9369047619047619,
+    "test_recall": 0.9333333333333333,
+    "test_f1": 0.9336801459159635,
+    "split": "split_dataset1"
+  },
+  {
+    "best_epoch": 41,
+    "epochs_trained": 62,
+    "best_val_accuracy": 0.9555555555555556,
+    "test_accuracy": 0.9555555555555556,
+    "test_precision": 0.9606481481481483,
+    "test_recall": 0.9555555555555555,
+    "test_f1": 0.9541157766964218,
+    "split": "split_dataset2"
+  },
+  {
+    "best_epoch": 41,
+    "epochs_trained": 62,
+    "best_val_accuracy": 0.9555555555555556,
+    "test_accuracy": 0.9407407407407408,
+    "test_precision": 0.9499338624338625,
+    "test_recall": 0.9407407407407408,
+    "test_f1": 0.9422103336452613,
+    "split": "split_dataset3"
+  },
+  {
+    "best_epoch": 18,
+    "epochs_trained": 39,
+    "best_val_accuracy": 0.9481481481481482,
+    "test_accuracy": 0.8962962962962963,
+    "test_precision": 0.9137068570118105,
+    "test_recall": 0.8962962962962963,
+    "test_f1": 0.8917314331314518,
+    "split": "split_dataset4"
+  },
+  {
+    "best_epoch": 36,
+    "epochs_trained": 57,
+    "best_val_accuracy": 0.9481481481481482,
+    "test_accuracy": 0.9333333333333333,
+    "test_precision": 0.9388888888888888,
+    "test_recall": 0.9333333333333333,
+    "test_f1": 0.9338743652425521,
+    "split": "split_dataset5"
+  }
+]

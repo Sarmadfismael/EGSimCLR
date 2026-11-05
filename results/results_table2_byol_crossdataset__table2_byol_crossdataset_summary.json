@@ -1,0 +1,12 @@
+{
+  "method": "byol",
+  "pretraining_dataset": "EuroSAT",
+  "eval_dataset": "UC_Merced",
+  "seed": 42,
+  "test_accuracy": 0.8380952380952381,
+  "test_precision": 0.8457142935692252,
+  "test_recall": 0.8380952380952381,
+  "test_f1": 0.8371130671517657,
+  "best_epoch": 70,
+  "epochs_trained": 91
+}

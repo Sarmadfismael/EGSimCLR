@@ -1,0 +1,12 @@
+{
+  "method": "barlow",
+  "pretraining_dataset": "EuroSAT",
+  "eval_dataset": "UC_Merced",
+  "seed": 42,
+  "test_accuracy": 0.7555555555555555,
+  "test_precision": 0.7637889951302158,
+  "test_recall": 0.7555555555555555,
+  "test_f1": 0.7477340622095066,
+  "best_epoch": 97,
+  "epochs_trained": 118
+}

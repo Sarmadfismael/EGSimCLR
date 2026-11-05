@@ -1,0 +1,28 @@
+[
+  {
+    "pretraining_dataset": "AID",
+    "n_splits": 5,
+    "seed": 42,
+    "accuracy_mean": 0.8681481481481482,
+    "accuracy_std": 0.027477388134802078,
+    "precision_mean": 0.8760554651937522,
+    "precision_std": 0.025694345928980514,
+    "recall_mean": 0.868148148148148,
+    "recall_std": 0.02747738813480211,
+    "f1_mean": 0.8669713047663894,
+    "f1_std": 0.027949758418972067
+  },
+  {
+    "pretraining_dataset": "UC_Merced",
+    "n_splits": 5,
+    "seed": 42,
+    "accuracy_mean": 0.888888888888889,
+    "accuracy_std": 0.01553790886177999,
+    "precision_mean": 0.8942574510685966,
+    "precision_std": 0.01639267290831465,
+    "recall_mean": 0.888888888888889,
+    "recall_std": 0.015537908861780077,
+    "f1_mean": 0.8882366160840973,
+    "f1_std": 0.015786559778209704
+  }
+]

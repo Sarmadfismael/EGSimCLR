@@ -1,0 +1,41 @@
+[
+  {
+    "pretraining_dataset": "AID",
+    "n_splits": 5,
+    "seed": 42,
+    "accuracy_mean": 0.9407407407407409,
+    "accuracy_std": 0.010475656017578498,
+    "precision_mean": 0.9453407179335972,
+    "precision_std": 0.00930663724185745,
+    "recall_mean": 0.9407407407407409,
+    "recall_std": 0.010475656017578433,
+    "f1_mean": 0.9405623728279074,
+    "f1_std": 0.010471103814551913
+  },
+  {
+    "pretraining_dataset": "EuroSAT",
+    "n_splits": 5,
+    "seed": 42,
+    "accuracy_mean": 0.9259259259259259,
+    "accuracy_std": 0.010475656017578498,
+    "precision_mean": 0.9342554507182991,
+    "precision_std": 0.009917885634666387,
+    "recall_mean": 0.9259259259259259,
+    "recall_std": 0.010475656017578511,
+    "f1_mean": 0.9254142641689806,
+    "f1_std": 0.011439563581898514
+  },
+  {
+    "pretraining_dataset": "UC_Merced",
+    "n_splits": 5,
+    "seed": 42,
+    "accuracy_mean": 0.8918518518518518,
+    "accuracy_std": 0.02227155019018207,
+    "precision_mean": 0.9006905713252461,
+    "precision_std": 0.021991967205089686,
+    "recall_mean": 0.8918518518518519,
+    "recall_std": 0.022271550190182118,
+    "f1_mean": 0.8924969763928446,
+    "f1_std": 0.02229644206489626
+  }
+]

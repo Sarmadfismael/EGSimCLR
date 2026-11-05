@@ -1,0 +1,128 @@
+{
+  "class_names": [
+    "Intersection and overpass",
+    "agricultural",
+    "bridge",
+    "building",
+    "desert",
+    "highway",
+    "mountain",
+    "river",
+    "rural"
+  ],
+  "pooled_confusion_matrix": [
+    [
+      71,
+      0,
+      0,
+      1,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      73,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      1,
+      69,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      70,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      75,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      0,
+      72,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      72,
+      0,
+      1
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      0,
+      1,
+      2,
+      68,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      0,
+      1,
+      0,
+      0,
+      71
+    ]
+  ],
+  "per_class_accuracy": {
+    "Intersection and overpass": 0.9466666666666667,
+    "agricultural": 0.9733333333333334,
+    "bridge": 0.92,
+    "building": 0.9333333333333333,
+    "desert": 1.0,
+    "highway": 0.96,
+    "mountain": 0.96,
+    "river": 0.9066666666666666,
+    "rural": 0.9466666666666667
+  },
+  "overall_accuracy": 0.9496296296296296,
+  "n_splits_pooled": 5,
+  "total_test_predictions": 675
+}
