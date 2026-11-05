@@ -3,8 +3,12 @@
 Official implementation of:
 
 > S. F. Ismael and E. Aptoula, "Entropy-Guided Contrastive Learning for Remote Sensing Scene Classification,"
-> *IEEE Geoscience and Remote Sensing Letters*, 2026.
-> DOI: `<ADD DOI HERE>`
+> *IEEE Geoscience and Remote Sensing Letters*, vol. 23, 2026.
+> Published 12 October 2026. DOI: [10.1109/LGRS.2026.3742572](https://doi.org/10.1109/LGRS.2026.3742572)
+
+[![Paper](https://img.shields.io/badge/DOI-10.1109%2FLGRS.2026.3742572-blue)](https://doi.org/10.1109/LGRS.2026.3742572)
+[![Dataset](https://img.shields.io/badge/Dataset-10.5281%2Fzenodo.23985528-blue)](https://doi.org/10.5281/zenodo.23985528)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Contrastive learning in remote sensing suffers from the **false-negative problem**: semantically
 similar images drawn into the same batch are treated as negatives and pushed apart. EGSimCLR
@@ -153,9 +157,15 @@ Trained checkpoints are **not** stored in this repository because of their size.
 MSD contains 900 high-resolution tiles (100 per class, 500×500 px) across nine urban and
 semi-urban classes over Mosul, Iraq (36.34°N, 43.13°E), with capture dates between 2022 and 2024.
 
-> **Release status:** pending. MSD is derived from Google Earth imagery, whose terms restrict
-> redistribution. Release details will be added here once the applicable rights have been
-> confirmed. For access enquiries in the meantime, please contact the corresponding author.
+**Download:** [MSD v1.0 on Zenodo](https://doi.org/10.5281/zenodo.23985528) — 900 images (513 MB),
+with five split manifests reproducing the exact 70/15/15 partitions used in the paper.
+
+Imagery © Google Earth and its data providers, released for non-commercial academic research and
+educational use with attribution retained. Annotations, class labels and split manifests are
+provided by the dataset authors. See the dataset record for full terms.
+
+After downloading, place the extracted `all/` folder and rebuild the splits with the snippet in
+the dataset README, so that the layout matches `<GRSL_ROOT>/dataset/MS_Dataset/` above.
 
 ---
 
@@ -172,13 +182,29 @@ semi-urban classes over Mosul, Iraq (36.34°N, 43.13°E), with capture dates bet
 
 ## Citation
 
+If you use this code, please cite the paper:
+
 ```bibtex
 @article{ismael2026entropy,
   author  = {Ismael, Sarmad F. and Aptoula, Erchan},
   title   = {Entropy-Guided Contrastive Learning for Remote Sensing Scene Classification},
   journal = {IEEE Geoscience and Remote Sensing Letters},
   year    = {2026},
-  doi     = {ADD-DOI-HERE}
+  doi     = {10.1109/LGRS.2026.3742572}
+}
+```
+
+If you use the Mosul Scene Dataset, please also cite the dataset record:
+
+```bibtex
+@dataset{ismael2026msd,
+  author    = {Ismael, Sarmad F. and Aptoula, Erchan},
+  title     = {Mosul Scene Dataset (MSD): A High-Resolution Aerial Scene
+               Classification Benchmark},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {1.0},
+  doi       = {10.5281/zenodo.23985528}
 }
 ```
 

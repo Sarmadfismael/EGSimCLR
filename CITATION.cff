@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "EGSimCLR: Entropy-Guided Contrastive Learning for Remote Sensing Scene Classification"
+authors:
+  - family-names: Ismael
+    given-names: "Sarmad F."
+    affiliation: "Ninevah University, Mosul, Iraq"
+    email: sarmad.ismael@uoninevah.edu.iq
+  - family-names: Aptoula
+    given-names: Erchan
+    affiliation: "Sabanci University, Istanbul, Türkiye"
+repository-code: "https://github.com/Sarmadfismael/EGSimCLR"
+license: MIT
+version: 1.0.0
+date-released: "2026-10-12"
+keywords:
+  - contrastive learning
+  - self-supervised learning
+  - remote sensing
+  - scene classification
+  - false negatives
+preferred-citation:
+  type: article
+  title: "Entropy-Guided Contrastive Learning for Remote Sensing Scene Classification"
+  authors:
+    - family-names: Ismael
+      given-names: "Sarmad F."
+    - family-names: Aptoula
+      given-names: Erchan
+  journal: "IEEE Geoscience and Remote Sensing Letters"
+  year: 2026
+  doi: "10.1109/LGRS.2026.3742572"
